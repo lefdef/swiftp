@@ -46,7 +46,7 @@ public class FsSettings {
 
     public static boolean allowAnoymous() {
         final SharedPreferences sp = getSharedPreferences();
-        return sp.getBoolean("allow_anonymous", false);
+        return sp.getBoolean("allow_anonymous", true);
     }
 
     public static File getChrootDir() {

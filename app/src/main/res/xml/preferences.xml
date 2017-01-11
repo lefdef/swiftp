@@ -65,7 +65,8 @@ along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
                     android:key="allow_anonymous"
                     android:title="@string/allow_anonymous_label"
                     android:summary="@string/anonymous_summary"
-                    android:defaultValue="@string/allow_anonymous_default" />
+                    android:defaultValue="@string/allow_anonymous_default"
+                    android:checked="true"/>
             </PreferenceCategory>
         </PreferenceScreen>
 
